@@ -1,0 +1,31 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8501
+
+[31m──[0m[31m────────────────────────[0m[31m [0m[1;31mTraceback [0m[1;2;31m(most recent call last)[0m[31m [0m[31m─────────────────────────[0m[31m──[0m
+[31m [0m [2;33m/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/[0m[1;33mexec_code.py[0m: [31m [0m
+[31m [0m [94m129[0m in [92mexec_func_with_error_handling[0m                                                 [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/usr/local/lib/python3.12/dist-packages/streamlit/runtime/scriptrunner/[0m[1;33mscript_runner[0m [31m [0m
+[31m [0m [1;33m.py[0m:[94m672[0m in [92mcode_to_exec[0m                                                              [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m [2;33m/content/[0m[1;33mapp.py[0m:[94m63[0m in [92m<module>[0m                                                       [31m [0m
+[31m [0m                                                                                      [31m [0m
+[31m [0m   [2m60 [0mfig, ax = plt.subplots(figsize=([94m14[0m, [94m5[0m))                                         [31m [0m
+[31m [0m   [2m61 [0m                                                                                [31m [0m
+[31m [0m   [2m62 [0max.plot(                                                                        [31m [0m
+[31m [0m [31m❱ [0m63 [2m│   [0m[1;4mresult[0m[[33m"[0m[33mtimestamp[0m[33m"[0m],                                                        [31m [0m
+[31m [0m   [2m64 [0m[2m│   [0mresult[[33m"[0m[33mpredicted_stock_price[0m[33m"[0m],                                            [31m [0m
+[31m [0m   [2m65 [0m[2m│   [0mlinewidth=[94m2[0m,                                                                [31m [0m
+[31m [0m   [2m66 [0m[2m│   [0mlabel=[33m"[0m[33mPredicted Stock Price[0m[33m"[0m                                               [31m [0m
+[31m────────────────────────────────────────────────────────────────────────────────────────[0m
+[1;91mNameError: [0mname [32m'result'[0m is not defined
+2026-02-04 11:27:54.044 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
